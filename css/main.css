@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+}
+
+.box {
+	margin: 0;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+
+.red {
+	background-color:red;
+}
+
+.blue {
+	background-color:blue;
+}
+
+.green {
+	background-color:green;
+}
+
+.black {
+	background-color:black;
+}
+
+@media screen and (max-width: 600px)
+{
+	.blue {display: none;}
+	.green {display:none;}
+}
+
+@media screen and (min-width: 1000px)
+{
+	.box {width:100%;}
+}
+
+.container {
+	height: 200px;
+	width: 200px;
+	background-color:tomato;
+}
+
+
+h1 {webkit animation name: fadeOut;
+	animation-name: fadeOut;
+}
